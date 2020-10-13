@@ -19,8 +19,8 @@ abstract class AesEncryptionStrategy
     /**#@+
      * Encryption constants
      */
-    const ENCRYPTION_CIPHER = MCRYPT_RIJNDAEL_128;
-    const ENCRYPTION_MODE = MCRYPT_MODE_CBC;
+    const ENCRYPTION_CIPHER = "rijndael-128";
+    const ENCRYPTION_MODE = "cbc";
     /**#@-*/
 
     /**
