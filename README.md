@@ -53,4 +53,5 @@ new AesEncrypter($key, AesEnum::METHOD_256, AesEncrypter::STRATEGY_MCRYPT);
 
 ### Update
 fix the security warning on `php 7.4`
+
 `Warning: Use of undefined constant MCRYPT_RIJNDAEL_128 - assumed 'MCRYPT_RIJNDAEL_128' (this will throw an Error in a future version of PHP)`
